@@ -1,0 +1,17 @@
+/* Visualizer.css */
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #000; /* Black background for realism */
+}
+
+.visualizer-container {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff; /* White for title */
+    text-align: center;
+}

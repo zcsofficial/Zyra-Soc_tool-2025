@@ -1,0 +1,19 @@
+.packet-details {
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.packet-details h2 {
+    margin-bottom: 20px;
+}
+
+.packet-details p {
+    margin: 10px 0;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}

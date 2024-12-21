@@ -1,0 +1,38 @@
+.threat-intelligence {
+    padding: 20px;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.safe {
+    background-color: #c8e6c9; /* Light green */
+}
+
+.malicious {
+    background-color: #ffccbc; /* Light red */
+}
+
+.error-message {
+    color: red;
+}
